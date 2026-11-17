@@ -1,0 +1,111 @@
+name: Total Basket auto-post
+
+on:
+  schedule:
+    # 11:30, 16:00, 21:00 Ελλάδας (09/10, 14/13, 19/18 UTC). Το Mac τα ξεκινάει ακριβώς στην ώρα τους· αυτό είναι εφεδρεία.
+    - cron: "5,25,45 8-20 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "normal / force (ανάρτηση τώρα) / youtube-check (έλεγχος σύνδεσης YouTube)"
+        default: normal
+        type: choice
+        options: [normal, force, facebook-check, youtube-check, youtube-review-now]
+
+concurrency:
+  group: autopost
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: Έλεγχος σύνδεσης Facebook
+        if: github.event.inputs.mode == 'facebook-check'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+        run: |
+          pip install -q requests
+          python -u src/main.py --facebook-check
+
+      - name: Έλεγχος σύνδεσης YouTube
+        if: github.event.inputs.mode == 'youtube-check'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          pip install -q google-api-python-client google-auth
+          python -u src/main.py --youtube-check
+
+      - name: Είναι ώρα ανάρτησης;
+        id: check
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "force" ]; then echo "due=true" >> "$GITHUB_OUTPUT";
+          elif [ -n "${{ github.event.inputs.mode }}" ] && [ "${{ github.event.inputs.mode }}" != "normal" ]; then echo "due=false" >> "$GITHUB_OUTPUT";
+          else python src/main.py --check; fi
+
+      # Η ουρά (branch "queue") κατεβαίνει χωρίς τα βίντεο· παίρνουμε μόνο αυτό που θα ανέβει.
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.due == 'true'
+        with:
+          ref: queue
+          path: queue
+          filter: blob:none
+          sparse-checkout: |
+            /*.json
+          sparse-checkout-cone-mode: false
+
+      - if: steps.check.outputs.due == 'true'
+        run: pip install requests google-api-python-client google-auth
+
+      - name: Ανάρτηση
+        if: steps.check.outputs.due == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "force" ]; then python -u src/main.py --force;
+          else python -u src/main.py; fi
+
+      # Σε κάθε εκτέλεση: ιδιωτικά Shorts που περιμένουν έλεγχο → δημόσια αν είναι καθαρά
+      - name: YouTube έλεγχος & δημοσίευση
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if grep -q '"yt_state": "pending"' state/posted.json 2>/dev/null; then
+            pip install -q requests google-api-python-client google-auth
+            if [ "${{ github.event.inputs.mode }}" = "youtube-review-now" ]; then python -u src/main.py --review-now;
+            else python -u src/main.py --review; fi
+          fi
+
+      - name: Αποθήκευση ιστορικού
+        if: always()
+        run: |
+          git config user.name "totalbasket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/posted.json
+          git diff --cached --quiet || (git commit -m "Ιστορικό αναρτήσεων" && git pull --rebase -q && git push)

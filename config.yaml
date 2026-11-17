@@ -1,0 +1,40 @@
+# Ρυθμίσεις Total Basket — ρετρό μπάσκετ (ελληνικό πρωτάθλημα & ελληνικές ομάδες στην Ευρώπη)
+# Μπορείς να αλλάξεις ό,τι θέλεις εδώ μέσα από το GitHub (κουμπί ✏️) χωρίς να αγγίξεις κώδικα.
+
+# Κάνε το true όταν μπουν όλα τα secrets. Μέχρι τότε δεν γίνεται καμία αυτόματη ανάρτηση.
+active: false
+
+source:
+  # Κανάλια-πηγές (YouTube). Κρατάμε μόνο κλιπ με σκορ στον τίτλο, έως max_seconds, έως τη σεζόν newest_season.
+  channels:
+    deykalion: {id: "UCLpKSNI45NmbFpv_XusAuuQ", credit: "@Deykalion1"}
+    galis80s:  {id: "UCzuTOx2CkrLpNZ2kI0E6SAg", credit: "Nick Galis & the 80s Archive"}
+    bosiopan:  {id: "UCm6KbCMpYR29c2_CYE_gAVA", credit: "@bosiopan"}
+    paokara:   {id: "UCZtkaLuoIGdnVDrAIJS7PKw", credit: "@paokararevideos"}
+    arishist:  {id: "UCZG1q6mPAx9mdinj7lH45ow", credit: "Aris History Channel"}
+    ptr:       {id: "UCJwMFBIe7jcBmNAFRwm98KQ", credit: "@grvrs"}
+    kostouros: {id: "UCP5e6hbn8kektbSRpF_zWhA", credit: "Argiris Kostouros"}
+  max_seconds: 170
+  newest_season: 2016     # μόνο ρετρό: έως τη σεζόν 2016-17
+
+queue:
+  days_ahead: 7           # 7 μέρες x 3 = 21 βίντεο
+
+schedule:
+  timezone: "Europe/Athens"
+  slots: ["11:30", "16:00", "21:00"]
+  # Έκτακτες ώρες για συγκεκριμένη μέρα (αντί για τις παραπάνω)
+  overrides:
+    "2026-11-17": ["20:00", "21:15", "22:30"]
+  grace_hours: 3
+
+hashtags: "#totalbasket #basketball #μπάσκετ #retrobasketball #euroleague #greekbasketleague"
+
+publish:
+  instagram: true
+  facebook: true
+  # YouTube: ανεβαίνει πρώτα ιδιωτικό· μετά από 30' αν δεν έχει θέμα copyright γίνεται δημόσιο.
+  youtube: true
+  youtube_auto_public: true
+  youtube_review_minutes: 30
+  youtube_paid_promotion: false
