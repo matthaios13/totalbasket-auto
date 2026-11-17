@@ -1,6 +1,7 @@
 {
   "posted_ids": [
-    "KSHHKtklzsI"
+    "KSHHKtklzsI",
+    "e0waFDta2JU"
   ],
   "log": [
     {
@@ -12,11 +13,26 @@
       "youtube": "https://youtube.com/shorts/MUHmS0ZmMtc",
       "yt_id": "MUHmS0ZmMtc",
       "yt_uploaded": "2026-11-17T16:06:08.321050+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df2UhleyiS2/",
       "facebook": "https://www.facebook.com/reel/1504907538208000/",
       "errors": [],
       "story": "https://www.instagram.com/stories/totalbasketgr/4032509082861940996"
+    },
+    {
+      "slot": "2026-11-17 20:00",
+      "source_id": "e0waFDta2JU",
+      "source_title": "2013-14 ΠΑΝΑΘΗΝΑΙΚΟΣ-ΟΣΦΠ 82-71",
+      "title": "ΤΟ ΝΤΕΡΜΠΙ ΠΟΥ ΔΕΝ ΞΕΧΝΙΕΤΑΙ! 🔥 ΠΑΝΑΘΗΝΑΪΚΟΣ – ΟΛΥΜΠΙΑΚΟΣ 82-71 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/dBOciILMjzY",
+      "yt_id": "dBOciILMjzY",
+      "yt_uploaded": "2026-11-17T18:00:22.888244+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df2hmJVlJLq/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4032558786039093430",
+      "facebook": "https://www.facebook.com/reel/2152865878681754/",
+      "errors": []
     }
   ]
 }
