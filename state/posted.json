@@ -15,9 +15,8 @@
       "yt_state": "pending",
       "instagram": "https://www.instagram.com/reel/Df2UhleyiS2/",
       "facebook": "https://www.facebook.com/reel/1504907538208000/",
-      "errors": [
-        "Instagram Story: publish 400: {\"error\":{\"message\":\"Fatal\",\"code\":-1,\"type\":\"OAuthException\",\"error_subcode\":2207032,\"is_transient\":false,\"error_user_msg\":\"Failed to create media. Please try to re-create media\",\"error_user_title\":\"Cannot create media\",\"fbtrace_id\":\"AgZTyA9kD0jb4Or8Qzq5FkN\"}}"
-      ]
+      "errors": [],
+      "story": "https://www.instagram.com/stories/totalbasketgr/4032509082861940996"
     }
   ]
 }
