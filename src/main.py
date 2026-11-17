@@ -199,6 +199,12 @@ def main():
             print("Instagram:", entry["instagram"])
         except Exception as e:
             errors.append(f"Instagram: {e}")
+    if pub.get("instagram_story"):
+        try:
+            entry["story"] = publish.instagram_upload(video_url, "", story=True)
+            print("Instagram Story:", entry["story"])
+        except Exception as e:
+            errors.append(f"Instagram Story: {e}")
     if pub.get("facebook"):
         try:
             entry["facebook"] = publish.facebook_reel_upload(video_url, text)
