@@ -1,7 +1,8 @@
 {
   "posted_ids": [
     "KSHHKtklzsI",
-    "e0waFDta2JU"
+    "e0waFDta2JU",
+    "urrlhT2hcIo"
   ],
   "log": [
     {
@@ -32,6 +33,21 @@
       "instagram": "https://www.instagram.com/reel/Df2hmJVlJLq/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4032558786039093430",
       "facebook": "https://www.facebook.com/reel/2152865878681754/",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-17 22:30",
+      "source_id": "urrlhT2hcIo",
+      "source_title": "Le Mans - Aris 91-115  23/1/85  Korac Cup",
+      "title": "ΕΛΛΗΝΙΚΟ ΜΠΑΣΚΕΤ ΣΤΗΝ ΕΥΡΩΠΗ! 🏀 LE MANS – ΑΡΗΣ 91-115 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/rapD8RbV_Ps",
+      "yt_id": "rapD8RbV_Ps",
+      "yt_uploaded": "2026-11-17T20:30:28.872534+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df2yxd3hNct/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4032634476101508317",
+      "facebook": "https://www.facebook.com/reel/2043600136329280/",
       "errors": []
     }
   ]
