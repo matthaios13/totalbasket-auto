@@ -35,7 +35,7 @@ publish:
   instagram_story: true
   facebook: true
   # YouTube: ανεβαίνει πρώτα ιδιωτικό· μετά από 30' αν δεν έχει θέμα copyright γίνεται δημόσιο.
-  youtube: false   # γίνεται true μόλις συνδεθεί το κανάλι (get_youtube_token.py)
+  youtube: true
   youtube_auto_public: true
   youtube_review_minutes: 30
   youtube_paid_promotion: false
