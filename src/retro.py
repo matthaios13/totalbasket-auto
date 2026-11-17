@@ -131,7 +131,7 @@ def _season(t):
 def parse(title, channel=""):
     """Τίτλος → στοιχεία αγώνα, ή None αν δεν διαβάζεται με σιγουριά."""
     t = _norm(title)
-    if FRIENDLY_OR_MINOR.search(t):
+    if FRIENDLY_OR_MINOR.search(t) or re.search(r"\s_\s|\s\+\s|&", t):   # κλιπ με δύο ματς → όχι
         return None
     scores = [m for m in SCORE.finditer(t) if 35 <= int(m[1]) <= 160 and 35 <= int(m[2]) <= 160]
     # αγνοούμε «σεζόν» τύπου 88-89 που μοιάζουν με σκορ
@@ -165,6 +165,11 @@ def parse(title, channel=""):
         if re.search(rx, t):
             comp, final = label, is_final
             break
+    # βαριά ήττα ελληνικής ομάδας από ξένη (>20 πόντους) → όχι για το Total Basket
+    if not (hg and ag):
+        gr_pts = s1 if hg else s2
+        if (s2 if hg else s1) - gr_pts > 20:
+            return None
     national = "ΕΛΛΑΔΑ" in (hg, ag)
     euro_comp = re.search(r"EUROLEAGUE|ΕΥΡΩΛΙΓΚΑ|CHAMPIONS|ΠΡΩΤΑΘΛΗΤΡΙΩΝ|ΚΥΠΕΛΛΟΥΧΩΝ|ΚΥΠ\. ?ΚΥΠ|SAPORTA|KORAC|ΚΟΡΑΤΣ|"
                           r"EUROCUP|ULEB|FINAL ?FOUR|F4\b|BCL|FIBA EUROPE", t)
