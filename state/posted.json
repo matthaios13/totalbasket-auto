@@ -3,7 +3,8 @@
     "KSHHKtklzsI",
     "e0waFDta2JU",
     "urrlhT2hcIo",
-    "D5dqTZw3BzQ"
+    "D5dqTZw3BzQ",
+    "OOpbfoJZKW0"
   ],
   "log": [
     {
@@ -60,10 +61,25 @@
       "youtube": "https://youtube.com/shorts/EtwEVfJgBIM",
       "yt_id": "EtwEVfJgBIM",
       "yt_uploaded": "2026-11-18T09:30:33.066333+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df4MCjjhxzl/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4033027013341599626",
       "facebook": "https://www.facebook.com/reel/1833990077919247/",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-18 16:00",
+      "source_id": "OOpbfoJZKW0",
+      "source_title": "ΑΡΗΣ-ΑΕΚ 128-84 [1986-87 (ΕΡΤ,25/10/86)]",
+      "title": "ΘΗΣΑΥΡΟΣ ΑΠΟ ΤΟ 1986! 📼 ΑΡΗΣ – ΑΕΚ 128-84 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/e1mhifrF-uw",
+      "yt_id": "e1mhifrF-uw",
+      "yt_uploaded": "2026-11-18T14:00:29.103791+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df4q8LROPe2/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4033162918559721973",
+      "facebook": "https://www.facebook.com/reel/1135304096149761/",
       "errors": []
     }
   ]
