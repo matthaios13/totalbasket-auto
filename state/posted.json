@@ -6,7 +6,8 @@
     "D5dqTZw3BzQ",
     "OOpbfoJZKW0",
     "V9o06iJJw4Y",
-    "chDgHi45ZG0"
+    "chDgHi45ZG0",
+    "ZOdsvRW7YPk"
   ],
   "log": [
     {
@@ -108,10 +109,25 @@
       "youtube": "https://youtube.com/shorts/MffnV1TPGDc",
       "yt_id": "MffnV1TPGDc",
       "yt_uploaded": "2026-11-19T09:30:20.511349+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df6w0L6h-a2/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4033752033380728070",
       "facebook": "https://www.facebook.com/reel/1453810216371105/",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-19 16:00",
+      "source_id": "ZOdsvRW7YPk",
+      "source_title": "ΠΑΟΚ-ΑΕΚ 85-77 Πρωταθλημα 2001",
+      "title": "ΤΟ ΝΤΕΡΜΠΙ ΠΟΥ ΔΕΝ ΞΕΧΝΙΕΤΑΙ! 🔥 ΠΑΟΚ – ΑΕΚ 85-77 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/xpNQfdYYZqQ",
+      "yt_id": "xpNQfdYYZqQ",
+      "yt_uploaded": "2026-11-19T14:00:27.167581+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df7PueMMlH6/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4033887903611655877",
+      "facebook": "https://www.facebook.com/reel/2109576909685815/",
       "errors": []
     }
   ]
