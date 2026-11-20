@@ -9,7 +9,8 @@
     "chDgHi45ZG0",
     "ZOdsvRW7YPk",
     "r8SkeXTxLt4",
-    "fhgn7FV3nxo"
+    "fhgn7FV3nxo",
+    "cGw-pvfXBLc"
   ],
   "log": [
     {
@@ -156,12 +157,27 @@
       "youtube": "https://youtube.com/shorts/OYGby741mZo",
       "yt_id": "OYGby741mZo",
       "yt_uploaded": "2026-11-20T09:30:22.794314+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/Df9VnOBtAa0/",
       "facebook": "https://www.facebook.com/reel/1170299142228822/",
       "errors": [
         "Instagram Story: Instagram processing error: {'id': '18126404519515261', 'status': 'Error: Media upload has failed with error code 2207077', 'status_code': 'ERROR'}"
       ]
+    },
+    {
+      "slot": "2026-11-20 16:00",
+      "source_id": "cGw-pvfXBLc",
+      "source_title": "Λε Μαν - Αρης 66-69  Euroleague  1/11/07",
+      "title": "ΜΕΓΑΛΗ ΒΡΑΔΙΑ ΣΤΗΝ ΕΥΡΩΠΗ! 🔥 ΛΕ ΜΑΝ – ΑΡΗΣ 66-69 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/BEXAEwzaayA",
+      "yt_id": "BEXAEwzaayA",
+      "yt_uploaded": "2026-11-20T14:00:30.097116+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df90hy4B1BL/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4034612693154079141",
+      "facebook": "https://www.facebook.com/reel/1128031273476935/",
+      "errors": []
     }
   ]
 }
