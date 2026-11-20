@@ -8,7 +8,8 @@
     "V9o06iJJw4Y",
     "chDgHi45ZG0",
     "ZOdsvRW7YPk",
-    "r8SkeXTxLt4"
+    "r8SkeXTxLt4",
+    "fhgn7FV3nxo"
   ],
   "log": [
     {
@@ -145,6 +146,22 @@
       "story": "https://www.instagram.com/stories/totalbasketgr/4034038964045287157",
       "facebook": "https://www.facebook.com/reel/39584066834570031/",
       "errors": []
+    },
+    {
+      "slot": "2026-11-20 11:30",
+      "source_id": "fhgn7FV3nxo",
+      "source_title": "1977-78 ΠΑΝΑΘΗΝΑΙΚΟΣ-ΟΣΦΠ 77-81",
+      "title": "ΚΛΑΣΙΚΟ ΝΤΕΡΜΠΙ! 🏀 ΠΑΝΑΘΗΝΑΪΚΟΣ – ΟΛΥΜΠΙΑΚΟΣ 77-81 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/OYGby741mZo",
+      "yt_id": "OYGby741mZo",
+      "yt_uploaded": "2026-11-20T09:30:22.794314+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/Df9VnOBtAa0/",
+      "facebook": "https://www.facebook.com/reel/1170299142228822/",
+      "errors": [
+        "Instagram Story: Instagram processing error: {'id': '18126404519515261', 'status': 'Error: Media upload has failed with error code 2207077', 'status_code': 'ERROR'}"
+      ]
     }
   ]
 }
