@@ -15,7 +15,8 @@
     "n7DRrDYIp2k",
     "9rqNiakrxS0",
     "tDuUVTyL8Tg",
-    "UpLfqTV14rs"
+    "UpLfqTV14rs",
+    "-6wV6uyYwro"
   ],
   "log": [
     {
@@ -253,11 +254,27 @@
       "youtube": "https://youtube.com/shorts/2iCXJp2fCE4",
       "yt_id": "2iCXJp2fCE4",
       "yt_uploaded": "2026-11-22T09:30:30.043374+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgCfVJ4BrcK/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4035926440733475233",
       "facebook": "https://www.facebook.com/reel/1971716710485546/",
       "errors": []
+    },
+    {
+      "slot": "2026-11-22 16:00",
+      "source_id": "-6wV6uyYwro",
+      "source_title": "2004-05 ΟΣΦΠ-ΠΑΝΑΘΗΝΑΙΚΟΣ 74-77",
+      "title": "ΝΤΕΡΜΠΙ ΑΠΟ ΤΑ ΠΑΛΙΑ! 🔥 ΟΛΥΜΠΙΑΚΟΣ – ΠΑΝΑΘΗΝΑΪΚΟΣ 74-77 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/eLusOCZSv1s",
+      "yt_id": "eLusOCZSv1s",
+      "yt_uploaded": "2026-11-22T14:00:23.927592+00:00",
+      "yt_state": "pending",
+      "errors": [
+        "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"A0wr_PFZATnXXnefsCN4a9X\"}}",
+        "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AE7E-G641bGyDFmOyDAdP3L\"}}",
+        "Facebook: start 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AHxsNuKXc-mchXQfhsbvHlh\"}}"
+      ]
     }
   ]
 }
