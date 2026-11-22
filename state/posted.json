@@ -269,7 +269,7 @@
       "youtube": "https://youtube.com/shorts/eLusOCZSv1s",
       "yt_id": "eLusOCZSv1s",
       "yt_uploaded": "2026-11-22T14:00:23.927592+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "errors": [
         "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"A0wr_PFZATnXXnefsCN4a9X\"}}",
         "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AE7E-G641bGyDFmOyDAdP3L\"}}",
