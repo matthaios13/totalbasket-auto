@@ -17,7 +17,8 @@
     "tDuUVTyL8Tg",
     "UpLfqTV14rs",
     "-6wV6uyYwro",
-    "XeByN_EaZ4U"
+    "XeByN_EaZ4U",
+    "dLgm-v0JrsQ"
   ],
   "log": [
     {
@@ -291,6 +292,22 @@
         "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AYHznuCBozfc_slDM0yJXTa\"}}",
         "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"As36eFwtQ6K-m1c38VFFEKb\"}}",
         "Facebook: start 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"Ao8xFQimHNqa5Om5Pjg3JkE\"}}"
+      ]
+    },
+    {
+      "slot": "2026-11-23 11:30",
+      "source_id": "dLgm-v0JrsQ",
+      "source_title": "Αρης-παοκ 76-75 16η  6/3/85",
+      "title": "ΘΗΣΑΥΡΟΣ ΑΠΟ ΤΟ 1984! 📼 ΑΡΗΣ – ΠΑΟΚ 76-75 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/9NoJyyjbYfA",
+      "yt_id": "9NoJyyjbYfA",
+      "yt_uploaded": "2026-11-23T09:30:23.643836+00:00",
+      "yt_state": "pending",
+      "errors": [
+        "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"Anql8_UYwLAndfX6CttJ0bK\"}}",
+        "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AB8aCFrXWV1sPT0_M9BS61I\"}}",
+        "Facebook: start 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"Ay7okZsqB74-LN7BvLNtWiH\"}}"
       ]
     }
   ]
