@@ -18,7 +18,8 @@
     "UpLfqTV14rs",
     "-6wV6uyYwro",
     "XeByN_EaZ4U",
-    "dLgm-v0JrsQ"
+    "dLgm-v0JrsQ",
+    "B388SGBUThY"
   ],
   "log": [
     {
@@ -303,11 +304,27 @@
       "youtube": "https://youtube.com/shorts/9NoJyyjbYfA",
       "yt_id": "9NoJyyjbYfA",
       "yt_uploaded": "2026-11-23T09:30:23.643836+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "errors": [
         "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"Anql8_UYwLAndfX6CttJ0bK\"}}",
         "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AB8aCFrXWV1sPT0_M9BS61I\"}}",
         "Facebook: start 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"Ay7okZsqB74-LN7BvLNtWiH\"}}"
+      ]
+    },
+    {
+      "slot": "2026-11-23 16:00",
+      "source_id": "B388SGBUThY",
+      "source_title": "Highlights (Aris - Banvit B.K  72-53)  Eurocup 15/12/15  EΡΤ-3",
+      "title": "ΕΛΛΗΝΙΚΟ ΜΠΑΣΚΕΤ ΣΤΗΝ ΕΥΡΩΠΗ! 🏀 ΑΡΗΣ – BANVIT B.K 72-53 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/R1LTeRVQPlk",
+      "yt_id": "R1LTeRVQPlk",
+      "yt_uploaded": "2026-11-23T14:00:27.093954+00:00",
+      "yt_state": "pending",
+      "errors": [
+        "Instagram: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"Ar5BWHph5NQvxlTBn3Gi89R\"}}",
+        "Instagram Story: container 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"ANfr52BCs29C414ZYEfh65Y\"}}",
+        "Facebook: start 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"Ai9zoerA4IIccBOOmCGIPDd\"}}"
       ]
     }
   ]
