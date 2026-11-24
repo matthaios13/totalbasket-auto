@@ -21,7 +21,8 @@
     "dLgm-v0JrsQ",
     "B388SGBUThY",
     "21uMzRUjQo4",
-    "DQ1EOrvhBEU"
+    "DQ1EOrvhBEU",
+    "0vFY28kwMx8"
   ],
   "log": [
     {
@@ -354,10 +355,25 @@
       "youtube": "https://youtube.com/shorts/Q7OFpky2ZK8",
       "yt_id": "Q7OFpky2ZK8",
       "yt_uploaded": "2026-11-24T09:30:22.876729+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgHoy6EIDvQ/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4037375967420085789",
       "facebook": "https://www.facebook.com/reel/1703712177840181/",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-24 16:00",
+      "source_id": "0vFY28kwMx8",
+      "source_title": "1997-98 ΠΑΝΑΘΗΝΑΙΚΟΣ-ΠΑΟΚ 68-58",
+      "title": "ΝΤΕΡΜΠΙ ΑΠΟ ΤΑ ΠΑΛΙΑ! 🔥 ΠΑΝΑΘΗΝΑΪΚΟΣ – ΠΑΟΚ 68-58 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/5kC-aFGEfYo",
+      "yt_id": "5kC-aFGEfYo",
+      "yt_uploaded": "2026-11-24T14:00:29.838385+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgIHtQiOVi3/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4037511742641822835",
+      "facebook": "https://www.facebook.com/reel/2378410516051406/",
       "errors": []
     }
   ]
