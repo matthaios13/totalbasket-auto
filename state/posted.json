@@ -22,7 +22,8 @@
     "B388SGBUThY",
     "21uMzRUjQo4",
     "DQ1EOrvhBEU",
-    "0vFY28kwMx8"
+    "0vFY28kwMx8",
+    "NHo_14_1oZs"
   ],
   "log": [
     {
@@ -370,10 +371,25 @@
       "youtube": "https://youtube.com/shorts/5kC-aFGEfYo",
       "yt_id": "5kC-aFGEfYo",
       "yt_uploaded": "2026-11-24T14:00:29.838385+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgIHtQiOVi3/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4037511742641822835",
       "facebook": "https://www.facebook.com/reel/2378410516051406/",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-24 21:00",
+      "source_id": "NHo_14_1oZs",
+      "source_title": "AEK-SLAVIA  89-82   1968",
+      "title": "ΣΠΑΝΙΟ ΒΙΝΤΕΟ ΑΠΟ ΤΟ 1968! 📼 ΑΕΚ – SLAVIA 89-82 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/oR6Bxmy7qGQ",
+      "yt_id": "oR6Bxmy7qGQ",
+      "yt_uploaded": "2026-11-24T19:00:24.931528+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgIqBrwBEr8/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4037662237748777686",
+      "facebook": "https://www.facebook.com/reel/2032962010724255/",
       "errors": []
     }
   ]
