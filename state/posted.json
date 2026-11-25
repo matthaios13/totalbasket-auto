@@ -419,6 +419,18 @@
       "yt_id": "UzBnbcb00Kk",
       "yt_uploaded": "2026-11-25T10:03:03.545516+00:00",
       "yt_state": "pending"
+    },
+    {
+      "slot": "show eurocup_zone-1",
+      "kind": "show_short",
+      "source_id": "show:eurocup_zone-1",
+      "source_title": "EUROCUP ZONE",
+      "title": "Εύκολο βράδυ για τον ΠΑΟΚ με την Μπόσνα | EUROCUP ZONE #shorts",
+      "ok": false,
+      "youtube": "https://youtube.com/shorts/adRPICaPqJM",
+      "yt_id": "adRPICaPqJM",
+      "yt_uploaded": "2026-11-25T10:13:16.284025+00:00",
+      "yt_state": "pending"
     }
   ]
 }
