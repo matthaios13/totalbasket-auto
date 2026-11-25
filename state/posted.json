@@ -402,11 +402,23 @@
       "youtube": "https://youtube.com/shorts/lrn5Acsv5UA",
       "yt_id": "lrn5Acsv5UA",
       "yt_uploaded": "2026-11-25T09:30:24.797830+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgKNly7g-nD/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4038100205772654422",
       "facebook": "https://www.facebook.com/reel/3636592779837268/",
       "errors": []
+    },
+    {
+      "slot": "show total_euroleague-1",
+      "kind": "show_short",
+      "source_id": "show:total_euroleague-1",
+      "source_title": "TOTAL EUROLEAGUE",
+      "title": "Πώς ο Φαλ σταμάτησε τον Βαλαντσιούνας | TOTAL EUROLEAGUE #shorts",
+      "ok": false,
+      "youtube": "https://youtube.com/shorts/UzBnbcb00Kk",
+      "yt_id": "UzBnbcb00Kk",
+      "yt_uploaded": "2026-11-25T10:03:03.545516+00:00",
+      "yt_state": "pending"
     }
   ]
 }
