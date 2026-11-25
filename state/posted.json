@@ -25,7 +25,8 @@
     "0vFY28kwMx8",
     "NHo_14_1oZs",
     "XrQ1S99IQe4",
-    "BUuhxlAoWmA"
+    "BUuhxlAoWmA",
+    "wQ4Z4Ev2OHI"
   ],
   "log": [
     {
@@ -448,6 +449,21 @@
       "errors": [
         "Instagram: publish 400: {\"error\":{\"message\":\"User is performing too many actions\",\"code\":9,\"type\":\"OAuthException\",\"error_subcode\":2207042,\"is_transient\":false,\"error_user_msg\":\"You reached the maximum number of posts that is allowed to be published by Content Publishing API.\",\"error_user_title\":\"Media publish limit exceeded\",\"fbtrace_id\":\"ADG97Nm8xl9UMEptv9phzIP\"}}"
       ]
+    },
+    {
+      "slot": "2026-11-25 21:00",
+      "source_id": "wQ4Z4Ev2OHI",
+      "source_title": "Aris - Steaua Bucharest 70-66  (Highlights) Eurocup  4/11/15  EΡΤ HD",
+      "title": "ΕΛΛΗΝΙΚΟ ΜΠΑΣΚΕΤ ΣΤΗΝ ΕΥΡΩΠΗ! 🏀 ΑΡΗΣ – STEAUA BUCHAREST 70-66 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/7wCKlZqVjDY",
+      "yt_id": "7wCKlZqVjDY",
+      "yt_uploaded": "2026-11-25T19:00:26.148387+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgLO09jss2B/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4038387303342241417",
+      "facebook": "https://www.facebook.com/reel/1200493049616323/",
+      "errors": []
     }
   ]
 }
