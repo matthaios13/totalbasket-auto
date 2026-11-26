@@ -26,7 +26,8 @@
     "NHo_14_1oZs",
     "XrQ1S99IQe4",
     "BUuhxlAoWmA",
-    "wQ4Z4Ev2OHI"
+    "wQ4Z4Ev2OHI",
+    "MQHj5e1fyCs"
   ],
   "log": [
     {
@@ -475,7 +476,22 @@
       "youtube": "https://youtube.com/shorts/_0_8GLDlWuc",
       "yt_id": "_0_8GLDlWuc",
       "yt_uploaded": "2026-11-26T09:02:01.158441+00:00",
-      "yt_state": "pending"
+      "yt_state": "public"
+    },
+    {
+      "slot": "2026-11-26 11:30",
+      "source_id": "MQHj5e1fyCs",
+      "source_title": "HELLAS-BULGARIA 107-83  1991",
+      "title": "Η ΕΘΝΙΚΗ ΣΕ ΜΕΓΑΛΕΣ ΣΤΙΓΜΕΣ! 🇬🇷 ΕΛΛΑΔΑ – BULGARIA 107-83 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/AyBBAD69nUE",
+      "yt_id": "AyBBAD69nUE",
+      "yt_uploaded": "2026-11-26T09:30:21.855039+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgMyYX_MkJ6/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4038825053981747563",
+      "facebook": "https://www.facebook.com/reel/4225282151103328/",
+      "errors": []
     }
   ]
 }
