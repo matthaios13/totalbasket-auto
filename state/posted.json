@@ -27,7 +27,8 @@
     "XrQ1S99IQe4",
     "BUuhxlAoWmA",
     "wQ4Z4Ev2OHI",
-    "MQHj5e1fyCs"
+    "MQHj5e1fyCs",
+    "SOXlnil9omA"
   ],
   "log": [
     {
@@ -487,10 +488,25 @@
       "youtube": "https://youtube.com/shorts/AyBBAD69nUE",
       "yt_id": "AyBBAD69nUE",
       "yt_uploaded": "2026-11-26T09:30:21.855039+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgMyYX_MkJ6/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4038825053981747563",
       "facebook": "https://www.facebook.com/reel/4225282151103328/",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-26 16:00",
+      "source_id": "SOXlnil9omA",
+      "source_title": "2005-06 ΠΑΝΑΘΗΝΑΙΚΟΣ-ΜΑΡΟΥΣΙ 68-57 ΤΕΛΙΚΟΣ ΚΥΠΕΛΛΟΥ",
+      "title": "ΤΕΛΙΚΟΣ ΠΟΥ ΔΕΝ ΞΕΧΝΙΕΤΑΙ! 🔥 ΠΑΝΑΘΗΝΑΪΚΟΣ – ΜΑΡΟΥΣΙ 68-57 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/mNDYMsgbI6c",
+      "yt_id": "mNDYMsgbI6c",
+      "yt_uploaded": "2026-11-26T14:12:56.133944+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgNSuELTUgi/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4038967509532762508",
+      "facebook": "https://www.facebook.com/reel/2973003593058470/",
       "errors": []
     }
   ]
