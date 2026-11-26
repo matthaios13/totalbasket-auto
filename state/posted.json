@@ -464,6 +464,18 @@
       "story": "https://www.instagram.com/stories/totalbasketgr/4038387303342241417",
       "facebook": "https://www.facebook.com/reel/1200493049616323/",
       "errors": []
+    },
+    {
+      "slot": "show total_euroleague-3",
+      "kind": "show_short",
+      "source_id": "show:total_euroleague-3",
+      "source_title": "TOTAL EUROLEAGUE",
+      "title": "Η χημεία που ψάχνει ο Παναθηναϊκός | TOTAL EUROLEAGUE #shorts",
+      "ok": false,
+      "youtube": "https://youtube.com/shorts/_0_8GLDlWuc",
+      "yt_id": "_0_8GLDlWuc",
+      "yt_uploaded": "2026-11-26T09:02:01.158441+00:00",
+      "yt_state": "pending"
     }
   ]
 }
