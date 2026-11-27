@@ -535,6 +535,18 @@
       "youtube": "https://youtube.com/shorts/thPhen7Iurc",
       "yt_id": "thPhen7Iurc",
       "yt_uploaded": "2026-11-27T07:32:48.479708+00:00",
+      "yt_state": "public"
+    },
+    {
+      "slot": "show total_euroleague-7",
+      "kind": "show_short",
+      "source_id": "show:total_euroleague-7",
+      "source_title": "TOTAL EUROLEAGUE",
+      "title": "Αμυντικό ριμπάουντ: το κλειδί του ΠΑΟ | TOTAL EUROLEAGUE #shorts",
+      "ok": false,
+      "youtube": "https://youtube.com/shorts/wPEiOz8n_Uc",
+      "yt_id": "wPEiOz8n_Uc",
+      "yt_uploaded": "2026-11-27T08:20:14.772235+00:00",
       "yt_state": "pending"
     }
   ]
