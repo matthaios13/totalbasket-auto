@@ -524,6 +524,18 @@
       "story": "https://www.instagram.com/stories/totalbasketgr/4039112036610923611",
       "facebook": "https://www.facebook.com/reel/1673525454460726/",
       "errors": []
+    },
+    {
+      "slot": "show eurocup_zone-3",
+      "kind": "show_short",
+      "source_id": "show:eurocup_zone-3",
+      "source_title": "EUROCUP ZONE",
+      "title": "Μπουένο: «μικρό» το γήπεδο του Άρη; | EUROCUP ZONE #shorts",
+      "ok": false,
+      "youtube": "https://youtube.com/shorts/thPhen7Iurc",
+      "yt_id": "thPhen7Iurc",
+      "yt_uploaded": "2026-11-27T07:32:48.479708+00:00",
+      "yt_state": "pending"
     }
   ]
 }
