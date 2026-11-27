@@ -30,7 +30,8 @@
     "MQHj5e1fyCs",
     "SOXlnil9omA",
     "Dfs3QhNv8ug",
-    "OsaGCTUA1s0"
+    "OsaGCTUA1s0",
+    "t5esXtxQWZQ"
   ],
   "log": [
     {
@@ -559,10 +560,25 @@
       "youtube": "https://youtube.com/shorts/tamHVFwKL3g",
       "yt_id": "tamHVFwKL3g",
       "yt_uploaded": "2026-11-27T09:42:15.805425+00:00",
-      "yt_state": "pending",
+      "yt_state": "public",
       "instagram": "https://www.instagram.com/reel/DgPYicFpcOr/",
       "story": "https://www.instagram.com/stories/totalbasketgr/4039555942797766156",
       "facebook": "https://www.facebook.com/reel/1146367117800937/",
+      "errors": []
+    },
+    {
+      "slot": "2026-11-27 16:00",
+      "source_id": "t5esXtxQWZQ",
+      "source_title": "Άρης - Πειραϊκός 75-60  13η 31/12/96  ΑΝΤ-1",
+      "title": "ΡΕΤΡΟ ΜΠΑΣΚΕΤ! 📼 ΑΡΗΣ – ΠΕΙΡΑΙΚΟΣ 75-60 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/OkOE0epanss",
+      "yt_id": "OkOE0epanss",
+      "yt_uploaded": "2026-11-27T14:01:35.259062+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgP2N4OBNHa/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4039686776123979360",
+      "facebook": "https://www.facebook.com/reel/1182948434258154/",
       "errors": []
     }
   ]
