@@ -32,7 +32,8 @@
     "Dfs3QhNv8ug",
     "OsaGCTUA1s0",
     "t5esXtxQWZQ",
-    "BS98JmQ90dE"
+    "BS98JmQ90dE",
+    "KWDjqRCvAtc"
   ],
   "log": [
     {
@@ -607,7 +608,7 @@
       "youtube": "https://youtube.com/shorts/Ue_144V1apo",
       "yt_id": "Ue_144V1apo",
       "yt_uploaded": "2026-11-28T09:00:56.927014+00:00",
-      "yt_state": "pending"
+      "yt_state": "public"
     },
     {
       "slot": "show eurocup_zone-2",
@@ -620,6 +621,21 @@
       "yt_id": "JguCQBNE-Zk",
       "yt_uploaded": "2026-11-28T09:11:00.612366+00:00",
       "yt_state": "pending"
+    },
+    {
+      "slot": "2026-11-28 11:30",
+      "source_id": "KWDjqRCvAtc",
+      "source_title": "Μπαρτσελονα - Αρης 86-83 7η Euroleague 7/12/06",
+      "title": "ΕΥΡΩΠΑΪΚΗ ΒΡΑΔΙΑ! ✨ ΜΠΑΡΤΣΕΛΟΝΑ – ΑΡΗΣ 86-83 #totalbasket #shorts #basketball",
+      "ok": true,
+      "youtube": "https://youtube.com/shorts/liTZFoeoK18",
+      "yt_id": "liTZFoeoK18",
+      "yt_uploaded": "2026-11-28T09:30:26.182683+00:00",
+      "yt_state": "pending",
+      "instagram": "https://www.instagram.com/reel/DgR8AySxjHZ/",
+      "story": "https://www.instagram.com/stories/totalbasketgr/4040275513790893727",
+      "facebook": "https://www.facebook.com/reel/1161007779643778/",
+      "errors": []
     }
   ]
 }
