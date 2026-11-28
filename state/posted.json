@@ -596,6 +596,18 @@
       "story": "https://www.instagram.com/stories/totalbasketgr/4039836834496313721",
       "facebook": "https://www.facebook.com/reel/1365998625537133/",
       "errors": []
+    },
+    {
+      "slot": "show total_euroleague-2",
+      "kind": "show_short",
+      "source_id": "show:total_euroleague-2",
+      "source_title": "TOTAL EUROLEAGUE",
+      "title": "Ο Ολυμπιακός έχει μέταλλο πρωταθλητή | TOTAL EUROLEAGUE #shorts",
+      "ok": false,
+      "youtube": "https://youtube.com/shorts/Ue_144V1apo",
+      "yt_id": "Ue_144V1apo",
+      "yt_uploaded": "2026-11-28T09:00:56.927014+00:00",
+      "yt_state": "pending"
     }
   ]
 }
